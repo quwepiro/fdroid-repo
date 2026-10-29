@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1793232407000,
+    "timestamp": 1793232891000,
     "version": 20002,
     "name": "My First F-Droid Repo Demo",
     "icon": "icon.png",
@@ -12,6 +12,28 @@
     "uninstall": []
   },
   "apps": [
+    {
+      "authorName": "Macro002",
+      "categories": [
+        "Learning"
+      ],
+      "suggestedVersionName": "1.1.0",
+      "suggestedVersionCode": "10100",
+      "description": "AnkiBase\n",
+      "license": "MIT",
+      "name": "AnkiBase",
+      "sourceCode": "https://github.com/Macro002/AnkiBase",
+      "summary": "Self-hosted Anki in your browser and on your phone: study your real Anki coll...",
+      "added": 1777953455000,
+      "icon": "io.github.ankibase.10100.png",
+      "packageName": "io.github.ankibase",
+      "lastUpdated": 1777953456000,
+      "localized": {
+        "en-US": {
+          "whatsNew": "## Update\n\nClick **Update** in AnkiBase (Settings \u2192 Server), or run this on the server:\n```bash\ncurl -fsSL https://raw.githubusercontent.com/Macro002/AnkiBase/main/install.sh | sudo bash -s -- --update\n```\nWith Docker, where your `docker-compose.yml` is: `docker compose pull && docker compose up -d`\n\n**Android:** download the `.apk` below and open it. It installs over the old version.\n\n**iPhone:** add the source `https://apps.macr0.dev/static/ios/source.json` in SideStore or AltStore and update "
+        }
+      }
+    },
     {
       "antiFeatures": [
         "NonFreeNet"
@@ -117,6 +139,35 @@
     }
   ],
   "packages": {
+    "io.github.ankibase": [
+      {
+        "added": 1777953456000,
+        "apkName": "notality_v1.1.0.apk",
+        "hash": "e0d58eeb85702fc58fdbdd1801c15f61e0cb1b2b2fe04424ecd0a277e092818e",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "io.github.ankibase",
+        "sig": "bbc9539303960aed2609eb21343ea8c6",
+        "signer": "156e5da0ce96983b99dd1dc78d4cd5f8fc9978cca1c79017591f5474abc9aee0",
+        "size": 11695409,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ]
+        ],
+        "versionCode": 10100,
+        "versionName": "1.1.0"
+      }
+    ],
     "io.github.xarantolus.matterleast": [
       {
         "added": 1793231930000,

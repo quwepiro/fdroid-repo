@@ -1,0 +1,31 @@
+{
+  "repo": {
+    "timestamp": 1793232891000,
+    "categories": {
+      "fdroid": null,
+      "Learning": {
+        "name": {
+          "en-US": "Learning"
+        }
+      }
+    }
+  },
+  "packages": {
+    "io.github.ankibase": {
+      "metadata": {
+        "categories": [
+          "Learning"
+        ],
+        "license": "MIT",
+        "sourceCode": "https://github.com/Macro002/AnkiBase",
+        "authorName": "Macro002",
+        "summary": {
+          "en-US": "Self-hosted Anki in your browser and on your phone: study your real Anki coll..."
+        },
+        "description": {
+          "en-US": "AnkiBase\n"
+        }
+      }
+    }
+  }
+}

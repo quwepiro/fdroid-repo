@@ -1,0 +1,36 @@
+{
+  "repo": {
+    "timestamp": 1793232888000,
+    "categories": {
+      "fdroid": null,
+      "Learning": {
+        "name": {
+          "en-US": "Learning"
+        }
+      }
+    }
+  },
+  "packages": {
+    "io.github.ankibase": {
+      "metadata": {
+        "categories": [
+          "Learning"
+        ],
+        "license": "MIT",
+        "sourceCode": "https://github.com/Macro002/AnkiBase",
+        "authorName": "Macro002",
+        "summary": {
+          "en-US": "Self-hosted Anki in your browser and on your phone: study your real Anki coll..."
+        },
+        "description": {
+          "en-US": "AnkiBase\n"
+        }
+      }
+    },
+    "io.github.xarantolus.notality": {
+      "versions": {
+        "ab2781205a0c9a11383099ffe65efc24ed1c7a6d91363c3dcb9a5f607c277b2b": null
+      }
+    }
+  }
+}

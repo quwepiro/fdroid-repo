@@ -6,6 +6,7 @@ This repository hosts an [F-Droid](https://f-droid.org/) repo for my apps. This 
 <!-- This table is auto-generated. Do not edit -->
 | Icon | Name | Description | Version |
 | --- | --- | --- | --- |
+| <a href="https://github.com/Macro002/AnkiBase"><img src="fdroid/repo/icons/io.github.ankibase.10100.png" alt="AnkiBase icon" width="36px" height="36px"></a> | [**AnkiBase**](https://github.com/Macro002/AnkiBase) | Self-hosted Anki in your browser and on your phone: study your real Anki coll... | 1.1.0 (10100) |
 | <a href="https://github.com/xarantolus/matterleast"><img src="fdroid/repo/io.github.xarantolus.matterleast/en-US/icon_emU1g0kwZUZPFoMQZFU0GppFryIYPf1bNkrzpPSw5U4=.png" alt="Matterleast icon" width="36px" height="36px"></a> | [**Matterleast**](https://github.com/xarantolus/matterleast) | Third-party Mattermost client with a Discord-like feel. Not affiliated with o... | 0.22.0 (33) |
 |  | [**Notality**](https://github.com/xarantolus/notality) | A very simple note taking app for Android | 1.9.0 (11) |
 | <a href="https://github.com/xarantolus/rockit"><img src="fdroid/repo/io.github.xarantolus.rockit/en-US/icon_OWiNCX3blbejcMlFEOTgHrKN32Q7UElOeEtytHBEPbo=.png" alt="Rock It! icon" width="36px" height="36px"></a> | [**Rock It!**](https://github.com/xarantolus/rockit) | Rock It! is an Android app that helps you stay informed on all things space | 1.7.1 (25) |

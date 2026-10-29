@@ -14,11 +14,16 @@
       }
     },
     "address": "https://raw.githubusercontent.com/quwepiro/fdroid-repo/main/fdroid/repo",
-    "timestamp": 1793232407000,
+    "timestamp": 1793232891000,
     "categories": {
       "Internet": {
         "name": {
           "en-US": "Internet"
+        }
+      },
+      "Learning": {
+        "name": {
+          "en-US": "Learning"
         }
       },
       "Messaging": {
@@ -39,6 +44,69 @@
     }
   },
   "packages": {
+    "io.github.ankibase": {
+      "metadata": {
+        "added": 1777953455000,
+        "categories": [
+          "Learning"
+        ],
+        "lastUpdated": 1777953456000,
+        "license": "MIT",
+        "sourceCode": "https://github.com/Macro002/AnkiBase",
+        "authorName": "Macro002",
+        "name": {
+          "en-US": "AnkiBase"
+        },
+        "summary": {
+          "en-US": "Self-hosted Anki in your browser and on your phone: study your real Anki coll..."
+        },
+        "description": {
+          "en-US": "AnkiBase\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/icons/io.github.ankibase.10100.png",
+            "sha256": "7f4d3cd46b3ae64172e5b1505d646b7e45dbb7b7721c8c00f72a6ee509b33019",
+            "size": 765
+          }
+        },
+        "preferredSigner": "156e5da0ce96983b99dd1dc78d4cd5f8fc9978cca1c79017591f5474abc9aee0"
+      },
+      "versions": {
+        "e0d58eeb85702fc58fdbdd1801c15f61e0cb1b2b2fe04424ecd0a277e092818e": {
+          "added": 1777953456000,
+          "file": {
+            "name": "/notality_v1.1.0.apk",
+            "sha256": "e0d58eeb85702fc58fdbdd1801c15f61e0cb1b2b2fe04424ecd0a277e092818e",
+            "size": 11695409
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.1.0",
+            "versionCode": 10100,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "156e5da0ce96983b99dd1dc78d4cd5f8fc9978cca1c79017591f5474abc9aee0"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.VIBRATE"
+              }
+            ]
+          }
+        }
+      }
+    },
     "io.github.xarantolus.matterleast": {
       "metadata": {
         "added": 1793088647000,
