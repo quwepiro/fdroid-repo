@@ -1,87 +1,10 @@
 notality:
-  git: https://github.com/xarantolus/notality
-  name: "Notality"
+  git: https://github.com/Macro002/AnkiBase
+  name: "AnkiBase"
   description: |
-    Notality is a very simple note taking app. I mostly built it to learn how Flutter works, but it's functional and you can use it.
-
-    <b>Features</b>
-
-    - Create, edit, delete and reorder notes
-    - Automatic dark/light mode depending on the system-wide setting
-    - Import/Export your notes to save them externally
-    - Localization for English and German
+    AnkiBase
 
   # As described on https://f-droid.org/en/docs/Build_Metadata_Reference/#Categories,
   # you can use any name here, but you should look at the existing categories first
   categories: 
-    - Writing
-
-
-rockit:
-  git: https://github.com/xarantolus/rockit
-  name: "Rock It!"
-  # The APK's launcher icon is an adaptive icon (XML), so fdroid finds no
-  # raster to extract; this one is used instead.
-  icon: assets/icon/Icon.png
-  description: |
-    Rock It! helps you stay informed on all things space.
-    It displays upcoming rocket launches and current space news curated by <a href="https://thespacedevs.com/">The Space Devs</a>.
-
-    <b>Features</b>
-
-    - List upcoming launches and events (e.g. space station activity)
-    - Show launch/event details and a countdown (including the date and time in your local timezone)
-    - List latest space news articles
-    - Subscribe to launches or events to receive notifications before the start or when times are updated
-    - Search future events and launches
-    - No internet? No problem! The app caches offline content for a few days and updates it when connected to the internet
-
-    The app connects to the Launch Library and Spaceflight News API to get information about launches.
-    Additionality, it might connect to other hosts (e.g. YouTube) to receive video and article thumbnails.
-    Since none of these services are free software, it's labeled with "NonFreeNet".
-
-  categories: 
-    - Internet
-    - Science & Education
-
-  anti_features:
-    - NonFreeNet
-
-matterleast:
-  git: https://github.com/xarantolus/matterleast
-  name: "Matterleast"
-  # The launcher icon is an adaptive icon (XML), so fdroid finds no raster
-  # to extract; this one is used instead.
-  icon: assets/icon/legacy.png
-  description: |
-    Matterleast is an unofficial Android client for <a href="https://mattermost.com/">Mattermost</a> servers that tries to have a feel closer to Discord.
-
-    <b>Features</b>
-
-    - Discord-style feel and navigation: you can swipe between chats, swipe on messages to react/reply etc.
-    - One Home inbox across all servers for unread messages, mentions, threads and saved messages
-    - Notifications without Google's push service via a background job
-    - Tablet layout in landscape
-    - Different theming options: Matterleast colours, your Mattermost theme or Material You
-
-    Other (obvious) features that exist: threads, reactions, file previews, sharing, search, custom emojis, bots, channel management and more.
-
-    <b>Limitations</b>
-
-    - Calls, Playbooks and Boards are not supported, nor are Apps framework forms and message translation.
-    - Notifications don't go through Mattermost's push proxy, so new messages arrive when the app checks (about every 15 minutes) unless "Stay connected" is on.
-
-    To use this app, you need the address of a Mattermost server and an account on it.
-    The app talks to that server and, depending on its settings and the messages you open, to other hosts such as link previews, images and the server's plugins.
-    Since these services aren't necessarily free software, it's labeled with "NonFreeNet".
-
-    This app is significantly vibe-coded / created using LLMs. Most of its code has not been thoroughly reviewed by a human.
-
-    Matterleast is not affiliated with or endorsed by Mattermost, Inc. Mattermost is a trademark of Mattermost, Inc.
-
-  categories:
-    - Internet
-    - Messaging
-
-  anti_features:
-    - NonFreeNet
+    - Learning
