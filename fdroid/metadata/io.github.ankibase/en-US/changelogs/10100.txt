@@ -1,0 +1,16 @@
+## Update
+
+Click **Update** in AnkiBase (Settings → Server), or run this on the server:
+```bash
+curl -fsSL https://raw.githubusercontent.com/Macro002/AnkiBase/main/install.sh | sudo bash -s -- --update
+```
+With Docker, where your `docker-compose.yml` is: `docker compose pull && docker compose up -d`
+
+**Android:** download the `.apk` below and open it. It installs over the old version.
+
+**iPhone:** add the source `https://apps.macr0.dev/static/ios/source.json` in SideStore or AltStore and update from there, or download the `.ipa` below and open it in either.
+
+New to AnkiBase? See the [install guide](https://github.com/Macro002/AnkiBase#-install).
+
+
+**Full Changelog**: https://github.com/Macro002/AnkiBase/compare/v1.0.0...v1.1.0

@@ -1,0 +1,13 @@
+AuthorName: Macro002
+Categories:
+    - Learning
+CurrentVersion: 1.1.0
+CurrentVersionCode: 10100
+Description: |
+    AnkiBase
+IssueTracker: ""
+License: MIT
+Name: AnkiBase
+SourceCode: https://github.com/Macro002/AnkiBase
+Summary: 'Self-hosted Anki in your browser and on your phone: study your real Anki coll...'
+WebSite: ""

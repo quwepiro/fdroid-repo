@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1793232400000,
+    "timestamp": 1793232888000,
     "version": 20002,
     "name": "My First F-Droid Archive Demo",
     "icon": "icon.png",
@@ -12,6 +12,23 @@
     "uninstall": []
   },
   "apps": [
+    {
+      "authorName": "Macro002",
+      "categories": [
+        "Learning"
+      ],
+      "suggestedVersionName": "1.1.0",
+      "suggestedVersionCode": "10100",
+      "description": "AnkiBase\n",
+      "license": "MIT",
+      "name": "AnkiBase",
+      "sourceCode": "https://github.com/Macro002/AnkiBase",
+      "summary": "Self-hosted Anki in your browser and on your phone: study your real Anki coll...",
+      "added": 1777953455000,
+      "icon": "io.github.ankibase.10000.png",
+      "packageName": "io.github.ankibase",
+      "lastUpdated": 1777953456000
+    },
     {
       "antiFeatures": [
         "NonFreeNet"
@@ -71,6 +88,35 @@
     }
   ],
   "packages": {
+    "io.github.ankibase": [
+      {
+        "added": 1777953455000,
+        "apkName": "notality_v1.0.0.apk",
+        "hash": "574d47d3bfb917acce715674e9a43e8df623c19b6f2220712a388f2775389c62",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "io.github.ankibase",
+        "sig": "bbc9539303960aed2609eb21343ea8c6",
+        "signer": "156e5da0ce96983b99dd1dc78d4cd5f8fc9978cca1c79017591f5474abc9aee0",
+        "size": 11695409,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.VIBRATE",
+            null
+          ]
+        ],
+        "versionCode": 10000,
+        "versionName": "1.0.0"
+      }
+    ],
     "io.github.xarantolus.matterleast": [
       {
         "added": 1793221419000,
@@ -1342,25 +1388,6 @@
         "targetSdkVersion": 30,
         "versionCode": 2,
         "versionName": "1.4.1"
-      },
-      {
-        "added": 1777953455000,
-        "apkName": "notality_v1.0.0.apk",
-        "hash": "ab2781205a0c9a11383099ffe65efc24ed1c7a6d91363c3dcb9a5f607c277b2b",
-        "hashType": "sha256",
-        "minSdkVersion": 16,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a",
-          "x86_64"
-        ],
-        "packageName": "io.github.xarantolus.notality",
-        "sig": "3b6c475d25514f30dc14013a39dacf32",
-        "signer": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6",
-        "size": 18672232,
-        "targetSdkVersion": 30,
-        "versionCode": 1,
-        "versionName": "1.0.0"
       },
       {
         "added": 1777953455000,
