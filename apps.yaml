@@ -20,16 +20,16 @@ shizuku-fork:
   categories: 
     - Custom
 
-shizuku-plus:
-  git: https://github.com/thejaustin/ShizukuPlus
-  name: "Shizuku Plus"
-  description: |
-    ShizukuPlus
+# shizuku-plus:
+#   git: https://github.com/thejaustin/ShizukuPlus
+#   name: "Shizuku Plus"
+#   description: |
+#     ShizukuPlus
 
-  # As described on https://f-droid.org/en/docs/Build_Metadata_Reference/#Categories,
-  # you can use any name here, but you should look at the existing categories first
-  categories: 
-    - Custom
+#   # As described on https://f-droid.org/en/docs/Build_Metadata_Reference/#Categories,
+#   # you can use any name here, but you should look at the existing categories first
+#   categories: 
+#     - Custom
 
 infinity:
   git: https://github.com/quwepiro/uaighv
