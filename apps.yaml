@@ -7,4 +7,81 @@ notality:
   # As described on https://f-droid.org/en/docs/Build_Metadata_Reference/#Categories,
   # you can use any name here, but you should look at the existing categories first
   categories: 
-    - Learning
+    - Custom
+
+shizuku-fork:
+  git: https://github.com/thedjchi/Shizuku
+  name: "Shizuku Fork"
+  description: |
+    ShizukuFork
+
+  # As described on https://f-droid.org/en/docs/Build_Metadata_Reference/#Categories,
+  # you can use any name here, but you should look at the existing categories first
+  categories: 
+    - Custom
+
+shizuku-plus:
+  git: https://github.com/thejaustin/ShizukuPlus
+  name: "Shizuku Plus"
+  description: |
+    ShizukuPlus
+
+  # As described on https://f-droid.org/en/docs/Build_Metadata_Reference/#Categories,
+  # you can use any name here, but you should look at the existing categories first
+  categories: 
+    - Custom
+
+infinity:
+  git: https://github.com/quwepiro/uaighv
+  name: "Infinity"
+  description: |
+    Infinity Custom
+
+  # As described on https://f-droid.org/en/docs/Build_Metadata_Reference/#Categories,
+  # you can use any name here, but you should look at the existing categories first
+  categories: 
+    - Custom
+
+anytype:
+  git: https://github.com/anyproto/anytype-kotlin
+  name: "AnyType"
+  description: |
+    AnyType
+
+  # As described on https://f-droid.org/en/docs/Build_Metadata_Reference/#Categories,
+  # you can use any name here, but you should look at the existing categories first
+  categories: 
+    - Custom
+
+appflowy:
+  git: https://github.com/AppFlowy-IO/AppFlowy
+  name: "AppFlowy"
+  description: |
+    AppFlowy
+
+  # As described on https://f-droid.org/en/docs/Build_Metadata_Reference/#Categories,
+  # you can use any name here, but you should look at the existing categories first
+  categories: 
+    - Custom
+  
+mealiego:
+  git: https://github.com/Vorisek-Labs/mealie-go
+  name: "MealieGo"
+  description: |
+    MealieGo
+
+  # As described on https://f-droid.org/en/docs/Build_Metadata_Reference/#Categories,
+  # you can use any name here, but you should look at the existing categories first
+  categories: 
+    - Custom
+
+nutritrace:
+  git: https://github.com/TraceApps/nutritrace
+  name: "NutriTrace"
+  description: |
+    NutriTrace
+
+  # As described on https://f-droid.org/en/docs/Build_Metadata_Reference/#Categories,
+  # you can use any name here, but you should look at the existing categories first
+  categories: 
+    - Custom
